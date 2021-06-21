@@ -1,0 +1,64 @@
+$main-red: #970000;
+$darker-red: #660101;
+
+$main-gray: #424242;
+$dark-gray: #2c2c2c;
+
+body {
+  background-color: #e9e9e9;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* logo styles */
+#telephone {
+  color: $main-red !important;
+}
+
+#header-container {
+  position: relative;
+
+  @media screen and (max-width: 767px) {
+    background-color: #c2c2c2;
+  }
+}
+
+.info-headers {
+  text-align: right;
+}
+
+#trapezoid {
+  border-bottom: 100px solid;
+  border-right: 50px solid transparent;
+  height: 0;
+  max-width: 35vw;
+  background-image: linear-gradient($main-gray, $dark-gray);
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    max-width: 40vh;
+  }
+
+  @media screen and (max-width: 767px) {
+    position: relative;
+    border-bottom: none;
+    border-right: none;
+    height: 10vh;
+    max-width: none;
+  }
+}
+
+/* nav styles */
+.bg-red {
+  background-image: linear-gradient($main-red, $darker-red);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-bars {
+  color: black !important;
+}

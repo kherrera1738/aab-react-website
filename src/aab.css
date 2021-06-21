@@ -1,0 +1,67 @@
+body {
+  background-color: #e9e9e9;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* logo styles */
+#telephone {
+  color: #970000 !important;
+}
+
+#header-container {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  #header-container {
+    background-color: #c2c2c2;
+  }
+}
+
+.info-headers {
+  text-align: right;
+}
+
+#trapezoid {
+  border-bottom: 100px solid;
+  border-right: 50px solid transparent;
+  height: 0;
+  max-width: 35vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#2c2c2c));
+  background-image: linear-gradient(#424242, #2c2c2c);
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #trapezoid {
+    max-width: 40vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #trapezoid {
+    position: relative;
+    border-bottom: none;
+    border-right: none;
+    height: 10vh;
+    max-width: none;
+  }
+}
+
+/* nav styles */
+.bg-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#970000), to(#660101));
+  background-image: linear-gradient(#970000, #660101);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-bars {
+  color: black !important;
+}
+/*# sourceMappingURL=aab.css.map */
