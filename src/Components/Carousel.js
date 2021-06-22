@@ -6,7 +6,7 @@ import slide4 from '../Imgs/slide-4.jpg';
 
 function Carousel() {
   return (
-      <div class="container-fluid">
+      <div class="container-fluid mb-3">
         <div class="row justify-content-center mt-3">
           <div class="col-12 col-xl-10 col-xxl-8 px-0">
             <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -84,4 +84,4 @@ function Carousel() {
   )
 }
 
-export default Carousel
+export default Carousel;
