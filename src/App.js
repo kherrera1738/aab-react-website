@@ -4,6 +4,7 @@ import './aab.css';
 import Navbar from './Components/Navbar';
 import Carousel from './Components/Carousel';
 import CardSection from './Components/CardSection';
+import ServicesReviews from './Components/ServicesReviews';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Carousel />
       <CardSection />
+      <ServicesReviews />
     </div>
   );
 }
