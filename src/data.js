@@ -8,3 +8,25 @@ export const services = [
   "Auto Paint Repair",
   "Rim Repair",
 ];
+
+export const logos = [
+  { name: "3m", width: "150" },
+  { name: "bmw", width: "150" },
+  { name: "chevrolet", width: "200" },
+  { name: "dodge", width: "150" },
+  { name: "fiat", width: "150" },
+  { name: "ford", width: "200" },
+  { name: "general_motors", width: "150" },
+  { name: "honda", width: "150" },
+  { name: "infiniti", width: "150" },
+  { name: "jeep", width: "200" },
+  { name: "kia", width: "150" },
+  { name: "land_rover", width: "200" },
+  { name: "mercedes_benz", width: "150" },
+  { name: "mitsubishi", width: "150" },
+  { name: "nissan", width: "150" },
+  { name: "ppg", width: "150" },
+  { name: "suzuki", width: "200" },
+  { name: "toyota", width: "150" },
+  { name: "volkswagen", width: "150" },
+];

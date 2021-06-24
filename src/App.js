@@ -6,6 +6,7 @@ import Carousel from "./Components/Carousel";
 import CardSection from "./Components/CardSection";
 import ServicesReviews from "./Components/ServicesReviews";
 import SupportedBrands from "./Components/SupportedBrands";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <CardSection />
       <ServicesReviews />
       <SupportedBrands />
+      <Footer />
     </div>
   );
 }
