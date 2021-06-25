@@ -8,13 +8,7 @@ export const FooterContainer = styled.div`
   justify-content: end;
   justify-items: center;
   align-items: center;
-`;
-
-export const Link = styled.a`
-  color: white;
-  text-decoration: none;
-
-  &:hover {
-    color: #999;
-  }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 `;

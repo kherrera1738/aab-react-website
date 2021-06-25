@@ -10,10 +10,14 @@ function ServicesReviews() {
     script.src = "https://www.yelp.com/embed/widgets.js";
     script.async = true;
 
-    document.getElementById("reviews").appendChild(script);
+    if (document.getElementById("reviews") !== null) {
+      document.getElementById("reviews").appendChild(script);
+    }
 
     return () => {
-      document.getElementById("reviews").appendChild(script);
+      if (document.getElementById("reviews") !== null) {
+        document.getElementById("reviews").appendChild(script);
+      }
     };
   }, []);
 

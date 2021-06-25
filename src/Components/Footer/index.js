@@ -1,12 +1,19 @@
 import React from "react";
-import { FooterContainer, Link } from "./FooterElements";
+import { FooterContainer } from "./FooterElements";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <FooterContainer>
-      <Link href="#">Home</Link>
-      <Link href="#">About</Link>
-      <Link href="#">Location</Link>
+      <Link to="/" className="footer-link">
+        Home
+      </Link>
+      <Link to="/about" className="footer-link">
+        About
+      </Link>
+      <Link to="/location" className="footer-link">
+        Location
+      </Link>
     </FooterContainer>
   );
 }
