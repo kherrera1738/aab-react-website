@@ -84,4 +84,18 @@ body {
 .content {
   padding-bottom: 55px;
 }
+
+#about {
+  float: left;
+}
+
+@media screen and (max-width: 425px) {
+  #about {
+    float: none;
+  }
+}
+
+#mission {
+  background-color: white;
+}
 /*# sourceMappingURL=aab.css.map */

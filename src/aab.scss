@@ -87,3 +87,16 @@ body {
 .content {
   padding-bottom: 55px;
 }
+
+// about section
+#about {
+  float: left;
+
+  @media screen and (max-width: 425px) {
+    float: none;
+  }
+}
+
+#mission {
+  background-color: white;
+}
