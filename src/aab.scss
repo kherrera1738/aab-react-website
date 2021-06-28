@@ -6,8 +6,6 @@ $dark-gray: #2c2c2c;
 
 body {
   background-color: #e9e9e9;
-  // position: relative;
-  // top: -25px;
 }
 
 /* logo styles */
@@ -99,4 +97,32 @@ body {
 
 #mission {
   background-color: white;
+}
+
+// Location section
+
+#map {
+  border: 0;
+  width: 100%;
+
+  @media screen and (max-width: 767px) {
+    place-self: center;
+  }
+}
+
+#map-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+#message {
+  margin-left: 20px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: 0px;
+  }
 }

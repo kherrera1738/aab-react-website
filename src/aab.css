@@ -98,4 +98,39 @@ body {
 #mission {
   background-color: white;
 }
+
+#map {
+  border: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  #map {
+    place-self: center;
+  }
+}
+
+#map-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+}
+
+@media screen and (max-width: 767px) {
+  #map-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+#message {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  #message {
+    margin-left: 0px;
+  }
+}
 /*# sourceMappingURL=aab.css.map */
