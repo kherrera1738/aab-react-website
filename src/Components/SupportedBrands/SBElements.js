@@ -36,4 +36,8 @@ export const ImgsContainer = styled.div`
   @media (min-width: 425px) and (max-width: 767px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media screen and (max-width: 424px) {
+    grid-template-columns: 1fr;
+  }
 `;

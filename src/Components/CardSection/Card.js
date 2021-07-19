@@ -1,16 +1,24 @@
-import React from 'react';
-import {  CardBody, CardImgContainer, CardImg, CardTitle, CardText } from './CardElements';
+import React from "react";
+import {
+  CardBody,
+  CardImgContainer,
+  CardImg,
+  CardTitle,
+  CardText,
+} from "./CardElements";
 
-function Card({img, title, text}) {
+function Card({ img, title, text }) {
   return (
-      <CardBody>
-        <CardImgContainer>
-          <CardImg src={img} />
-        </CardImgContainer>
+    <CardBody>
+      <CardImgContainer>
+        <CardImg src={img} />
+      </CardImgContainer>
+      <div>
         <CardTitle className="px-3 pt-1">{title}</CardTitle>
         <CardText className="px-2">{text}</CardText>
-      </CardBody>
-  )
+      </div>
+    </CardBody>
+  );
 }
 
-export default Card
+export default Card;

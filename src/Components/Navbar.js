@@ -9,12 +9,17 @@ function Navbar() {
           Advanced Autobody &amp; Collision Repair
         </h1>
       </div>
+      <div className="mobile-header">
+        <h1 className="text-white text-center fs-3 pt-3">
+          Advanced Autobody &amp; Collision Repair
+        </h1>
+      </div>
       <div className="container-fluid">
         <div className="info-headers">
           <h1 className="fs-2" id="telephone">
             TEL: 925-431-0522
           </h1>
-          <h2 className="fs-5">
+          <h2 className="fs-5" id="address">
             620 Garcia Ave., Suite B. Pittsburg, CA 94565
           </h2>
         </div>

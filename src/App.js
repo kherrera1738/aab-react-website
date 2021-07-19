@@ -11,7 +11,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <Router>
-      <div className="app pt-3">
+      <div className="app">
         <div className="content">
           <Navbar />
           <Switch>

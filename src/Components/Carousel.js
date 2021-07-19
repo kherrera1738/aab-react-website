@@ -6,8 +6,8 @@ import slide4 from "../Imgs/slide-4.jpg";
 
 function Carousel() {
   return (
-    <div className="container-fluid mb-3">
-      <div className="row justify-content-center mt-3">
+    <div className="container-fluid" id="carousel">
+      <div className="row justify-content-center">
         <div className="col-12 col-xl-10 col-xxl-8 px-0">
           <div
             id="carCarousel"

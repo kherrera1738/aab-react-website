@@ -11,18 +11,33 @@ body {
 /* logo styles */
 #telephone {
   color: $main-red !important;
+
+  @media screen and (max-width: 767px) {
+    color: white !important;
+    text-shadow: 2px 2px #2c2c2c;
+  }
+}
+
+#address {
+  @media screen and (max-width: 767px) {
+    color: #000000 !important;
+  }
 }
 
 #header-container {
   position: relative;
 
   @media screen and (max-width: 767px) {
-    background-color: #c2c2c2;
+    background-color: #757575;
   }
 }
 
 .info-headers {
   text-align: right;
+
+  @media screen and (max-width: 767px) {
+    padding-top: 10px;
+  }
 }
 
 #trapezoid {
@@ -40,11 +55,19 @@ body {
   }
 
   @media screen and (max-width: 767px) {
-    position: relative;
-    border-bottom: none;
-    border-right: none;
-    height: 10vh;
-    max-width: none;
+    display: none;
+  }
+}
+
+.mobile-header {
+  display: none;
+  background-image: linear-gradient($main-gray, $dark-gray);
+  align-items: center;
+  grid-template-columns: 1fr;
+  padding: 10px 0;
+
+  @media screen and (max-width: 767px) {
+    display: block;
   }
 }
 
@@ -84,6 +107,19 @@ body {
 
 .content {
   padding-bottom: 55px;
+}
+
+// home section
+iframe {
+  min-width: 0 !important;
+}
+
+#carousel {
+  margin: 20px 0;
+
+  @media screen and (max-width: 1200px) {
+    margin: 0;
+  }
 }
 
 // about section

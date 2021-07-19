@@ -11,4 +11,8 @@ export const FooterContainer = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
+
+  @media screen and (max-width: 375px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
